@@ -12,7 +12,6 @@ namespace UserPersonApi.Context
         }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Endereco> Endereco { get; set; }
 
         public new async Task<int> SaveChanges()
         {

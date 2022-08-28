@@ -7,7 +7,6 @@ namespace UserPersonApi.Context
     public interface IApplicationDbContext
     {
         DbSet<User> Users { get; set; }
-        DbSet<Endereco> Endereco { get; set; }
 
         Task<int> SaveChanges();
     }
